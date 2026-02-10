@@ -1,10 +1,15 @@
-# Password Check (Python)
+# 🔐 Password Check (Python)
 
-A simple CLI Python script that:
-- Accepts a username and password
-- Masks the password
-- Displays the password length
+A simple Python CLI script to practice secure input and basic validation.
+
+## Features
+- Takes username and password input
+- Hides password using `getpass`
+- Masks the password output
+- Displays password length
+- Validates input using regular expressions
 
 ## Run
 ```bash
 python password_check.py
+```
